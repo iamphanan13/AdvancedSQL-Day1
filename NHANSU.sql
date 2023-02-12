@@ -356,6 +356,8 @@ join departments d on e.department_id = d.department_id
 
 go
 
+-- create procedure 
+
 create procedure procedure_demo
 as
 begin
@@ -365,3 +367,4 @@ begin
 end
 
 exec procedure_demo
+
